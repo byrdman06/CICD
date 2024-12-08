@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: apache-container
-        image: ${{ secrets.DOCKERHUB_USERNAME }}/atlas-stephen-repo:latest
+        image: byrdman06/atlas-stephen-repo:latest
         resources:
           limits:
             memory: "128Mi"
